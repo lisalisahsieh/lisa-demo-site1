@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="謝美芬 Lisa｜臺大 EMHA114級，智齡科技副執行長兼營收長。結合商業經驗與科技，探索長照的永續發展。">
+  <title>謝美芬 Lisa｜個人介紹</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23894632'/%3E%3Cpath d='M10 7v18h13v-4h-9V7z' fill='%23fffaf4'/%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme: light; --paper: #faf7f1; --ink: #292b28; --muted: #62645d; --accent: #894632; --line: #dcd5ca; --serif: Georgia, "Noto Serif TC", "PMingLiU", serif; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Segoe UI", "Microsoft JhengHei", sans-serif; font-size: 1rem; line-height: 1.85; }
+    a { color: inherit; text-underline-offset: .25em; }
+    a:hover { color: var(--accent); }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+    img { display: block; max-width: 100%; height: auto; }
+    h1, h2, h3, p { margin: 0; }
+    .container { width: min(1120px, calc(100% - 80px)); margin-inline: auto; }
+    .skip-link { position: absolute; top: 8px; left: 8px; transform: translateY(-180%); padding: 8px 16px; background: white; z-index: 5; }
+    .skip-link:focus { transform: translateY(0); }
+    header { border-bottom: 1px solid var(--line); }
+    .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 96px; }
+    .brand { text-decoration: none; font-family: var(--serif); font-size: 1.5rem; letter-spacing: .04em; white-space: nowrap; }
+    .brand span { color: var(--accent); }
+    nav { display: flex; gap: 30px; flex-wrap: wrap; }
+    nav a { font-size: .9375rem; text-decoration: none; padding: 8px 0; }
+    section { scroll-margin-top: 24px; }
+    .hero { display: grid; grid-template-columns: 1.25fr 1fr; align-items: center; gap: 72px; padding-block: 64px 72px; }
+    .eyebrow { color: var(--accent); font-size: .875rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; }
+    h1 { margin-top: 22px; font-family: var(--serif); font-size: clamp(2.5rem, 5vw, 4.25rem); line-height: 1.25; font-weight: 500; letter-spacing: .07em; }
+    .english-name { display: block; margin-top: 8px; font-family: Georgia, serif; font-size: 1.75rem; font-style: italic; letter-spacing: .01em; color: var(--accent); }
+    .affiliation { margin-top: 22px; font-size: .9375rem; color: var(--muted); }
+    .intro { max-width: 30em; margin-top: 25px; font-family: var(--serif); font-size: clamp(1.25rem, 2vw, 1.625rem); line-height: 1.8; }
+    .role { margin-top: 24px; color: var(--muted); }
+    .hero-link { display: inline-block; margin-top: 30px; background: var(--accent); color: white; padding: 10px 25px; text-decoration: none; }
+    .hero-link:hover { color: white; background: #693524; }
+    .portrait { margin: 0; position: relative; padding: 0 15px 15px 0; }
+    .portrait::before { content: ""; position: absolute; inset: 18px 0 0 18px; border: 1px solid #aa8e73; z-index: -1; }
+    .portrait img { width: 100%; aspect-ratio: 505 / 680; object-fit: cover; object-position: center top; }
+    .section { padding-block: 56px 64px; border-top: 1px solid var(--line); }
+    .section-heading { display: flex; align-items: baseline; gap: 22px; margin-bottom: 32px; }
+    .section-number { color: var(--accent); font-family: Georgia, serif; font-size: .9375rem; }
+    h2 { font-family: var(--serif); font-size: 1.875rem; font-weight: 500; letter-spacing: .06em; line-height: 1.5; }
+    .skills { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px; list-style: none; padding: 0; margin: 0; }
+    .skills li { border-top: 2px solid var(--accent); padding-top: 20px; }
+    .skill-label { font-family: Georgia, serif; font-size: .875rem; color: var(--accent); letter-spacing: .1em; }
+    h3 { font-size: 1.1875rem; font-weight: 600; line-height: 1.6; }
+    .skills h3 { margin-block: 8px 12px; }
+    .skills p, .experience p { color: var(--muted); }
+    .experience { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 40px; padding-block: 28px; border-top: 1px solid var(--line); }
+    .experience:last-child { padding-bottom: 0; }
+    .period { color: var(--accent); font-size: .875rem; letter-spacing: .1em; margin-bottom: 8px; }
+    .experience p { max-width: 45em; }
+    .contact { background: #eeeadf; padding-block: 48px; }
+    .contact-inner { display: grid; grid-template-columns: 1fr 1.3fr; gap: 40px; align-items: start; }
+    .contact .section-heading { margin-bottom: 12px; }
+    .contact-note { color: var(--muted); }
+    .contact-list { margin: 0; }
+    .contact-row { padding-block: 10px; border-bottom: 1px solid #d1c8ba; }
+    dt { font-size: .875rem; color: var(--accent); }
+    dd { margin: 3px 0 0; font-size: 1.1875rem; overflow-wrap: anywhere; }
+    .contact-row a { display: inline-block; padding-block: 4px; }
+    footer { padding-block: 24px; color: var(--muted); font-size: .875rem; }
+    .footer-inner { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    @media (max-width: 800px) {
+      .container { width: calc(100% - 48px); }
+      .hero { gap: 32px; }
+      .experience { grid-template-columns: 180px minmax(0, 1fr); gap: 28px; }
+      .skills { gap: 24px; }
+    }
+    @media (max-width: 600px) {
+      .container { width: calc(100% - 40px); }
+      .header-inner { align-items: flex-start; flex-direction: column; gap: 8px; padding-block: 18px 12px; }
+      nav { width: 100%; justify-content: space-between; gap: 12px; }
+      .hero { grid-template-columns: minmax(0, 1fr); padding-block: 36px 44px; gap: 36px; }
+      h1 { margin-top: 14px; font-size: 2.75rem; }
+      .affiliation { margin-top: 18px; }
+      .intro { margin-top: 20px; }
+      .portrait { width: 100%; max-width: 380px; justify-self: center; }
+      .section { padding-block: 36px 40px; }
+      .section-heading { gap: 16px; margin-bottom: 24px; }
+      h2 { font-size: 1.625rem; }
+      .skills { grid-template-columns: minmax(0, 1fr); gap: 26px; }
+      .experience { grid-template-columns: minmax(0, 1fr); gap: 14px; padding-block: 24px; }
+      .contact { padding-block: 36px; }
+      .contact-inner { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+      dd { font-size: 1.0625rem; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="#about" aria-label="Lisa Hsieh，回到個人介紹">Lisa <span>Hsieh.</span></a>
+      <nav aria-label="主要導覽">
+        <a href="#about">關於我</a><a href="#expertise">專長</a><a href="#experience">經歷</a><a href="#contact">聯絡</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="container hero" id="about" aria-labelledby="name">
+      <div>
+        <p class="eyebrow">Business · Technology · Care</p>
+        <h1 id="name">謝美芬<span class="english-name" lang="en">Lisa Hsieh</span></h1>
+        <p class="affiliation">國立臺灣大學 · EMHA114級</p>
+        <p class="intro">結合商業經驗與科技，讓照護更有品質，讓更多人有尊嚴地老去。</p>
+        <p class="role">智齡科技 副執行長兼營收長（CRO）</p>
+        <a class="hero-link" href="#contact">與我聯絡</a>
+      </div>
+      <figure class="portrait">
+        <img src="images/lisa-portrait.jpg" width="505" height="800" alt="謝美芬 Lisa 的半身肖像，身穿黑灰色服裝，微笑面向鏡頭">
+      </figure>
+    </section>
+    <section class="container section" id="expertise" aria-labelledby="expertise-title">
+      <div class="section-heading"><span class="section-number" aria-hidden="true">01</span><h2 id="expertise-title">我的專長</h2></div>
+      <ul class="skills">
+        <li><span class="skill-label" lang="en">BRAND</span><h3>品牌行銷</h3><p>從消費品到數位產業，累積品牌行銷經驗，並將所學帶入長照科技領域。</p></li>
+        <li><span class="skill-label" lang="en">BUSINESS</span><h3>業務與經營管理</h3><p>結合二十多年的業務與管理經驗，關注科技如何協助照護機構改善營運。</p></li>
+        <li><span class="skill-label" lang="en">GROWTH</span><h3>客戶成功與海外市場拓展</h3><p>在智齡科技負責客戶成功與海外市場拓展，探索長照的永續發展。</p></li>
+      </ul>
+    </section>
+    <section class="container section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><span class="section-number" aria-hidden="true">02</span><h2 id="experience-title">走過的路</h2></div>
+      <article class="experience">
+        <div><div class="period">現在 · 長照科技</div><h3>智齡科技<br>副執行長兼營收長</h3></div>
+        <p>目前我在智齡科技負責行銷、業務、客戶成功與海外市場拓展。從消費品與數位產業轉入長照，是我在人生下半場的重要選擇。進修臺大 EMHA，則希望補足公共衛生與健康政策的知識，從更完整的角度理解高齡社會的需求，探索科技、照護與商業模式如何共同支持長照的永續發展。</p>
+      </article>
+      <article class="experience">
+        <div><div class="period">過往 · 跨產業累積</div><h3>品牌行銷與經營管理<br>二十多年的實務經驗</h3></div>
+        <p>我畢業於臺灣大學國際企業學系，過去曾任職於 P&amp;G、KFC、Mattel、Yahoo 等企業，累積二十多年的品牌行銷、業務與經營管理經驗。這些跨產業的歷練，讓我希望將過往的商業經驗結合科技，協助照護機構改善營運，讓更多人有尊嚴地老去。</p>
+      </article>
+    </section>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div><div class="section-heading"><span class="section-number" aria-hidden="true">03</span><h2 id="contact-title">保持聯繫</h2></div><p class="contact-note">歡迎交流科技、照護與商業的想法。</p></div>
+        <dl class="contact-list">
+          <div class="contact-row"><dt lang="en">EMAIL</dt><dd><a href="mailto:lisalisahsieh@gmail.com">lisalisahsieh@gmail.com</a></dd></div>
+          <div class="contact-row"><dt lang="en">MOBILE</dt><dd><a href="tel:+886936611909">+886 936 611 909</a></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-inner"><p>© 2026 謝美芬 Lisa Hsieh</p><a href="#about">回到頂端</a></div></footer>
+</body>
+</html>
